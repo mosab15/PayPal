@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1000px;
+    margin: 0 auto ;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+#navigation{
+    width: 90%;
+    margin: auto;
+}
+#navigation th{
+    background-color: #053366;
+    color: white;
+    padding-left: 0 49px;
+    font-size: 20px;
+    border-radius: 15px 15px 0 0;
+    width: 40rem;
+    
+}
+#navigation th:first-child{
+    background-color: #366492;
+    height: 30px;
+}
+#background-div{
+    background-color: #366492;
+    height: 30px;
+    margin-top: -3px;
+}
+#main-content {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between ;
+}
+nav {
+    width: 20%;
+}
+nav > div {
+    margin-bottom: 20px;
+}
+.nav-title {
+    background-color: rgb(204,204,204);
+    padding: 8px;
+    
+}
+.nav-content {
+    background-color: rgb(238,238,238);
+    padding: 15px 0 15px 25px;
+}
+.nav-news ul {
+    list-style: none;   
+}
+.nav-news .nav-content {
+    padding: 15px 0 15px 0;
+}
+.nav-news .nav-title {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right-text {
+    text-align: right;
+}
+nav > img {
+    width: 60px;
+}
+#main-content > section {
+    width: 75%;
+}
+#send-money {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 20px;
+}
+#send-money a {
+    font-weight: bolder;
+}
+#offer {
+    background-color: #366492;
+    font-size: 27px;
+    font-style: italic;
+    color: white;
+    padding: 27px;
+    width: 22%;
+    border-radius: 50%;
+    font-weight: 800;
+    -webkit-box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.5);
+}
+#Spotlight {
+    background-color: rgb(204,204,204);
+    margin: 20px 0;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+.fontsize{
+    font-size:1rem;
+    font-weight: bold;
+}
+
+.display-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#footer-links {
+    font-size: 20px;
+    margin: 15px 0;
+}
+#footer-copy-right {
+    text-align: center;
+    margin-bottom: 20px
+}
+#footer-images {
+    display: flex;
+    justify-content: space-around;
+}
